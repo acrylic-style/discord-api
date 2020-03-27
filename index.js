@@ -13,7 +13,7 @@ const toJSON = user => ({
   bot: user.bot,
   tag: user.tag,
   defaultAvatarURL: user.defaultAvatarURL,
-  avatarURL: user.avatarURL,
+  avatarURL: user.avatarURL(),
   avatar: user.avatar,
   createdAt: user.createdAt,
   createdTimestamp: user.createdTimestamp,
